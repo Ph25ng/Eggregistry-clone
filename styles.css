@@ -54,10 +54,10 @@
 .content-articles-items {
     display: grid;
     padding: 2rem;
-    margin: 2.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(2, 1fr);
-    gap: 2em;
+    gap: 1.2em;
 
 }
 
@@ -98,6 +98,7 @@
     text-decoration: none;
     padding: 0.5rem ;
     color: white;
+
 }
 .article-card:hover {
   transform: translateY(-5px);
