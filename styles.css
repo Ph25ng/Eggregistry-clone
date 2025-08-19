@@ -92,15 +92,18 @@
 } 
 
 .read-button {
+    display: flex;
     background-color: #0C0C53;
     border: #0C0C53 2px solid;
     border-radius: 12px;
     text-decoration: none;
     padding: 0.5rem ;
     color: white;
+    flex-shrink: 1rem;
+    margin-top: 1rem;
 
 }
-.article-card:hover {
+.read-button:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
   transition: 0.3s ease;
