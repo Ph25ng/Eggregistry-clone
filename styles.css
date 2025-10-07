@@ -99,8 +99,10 @@
     text-decoration: none;
     padding: 0.5rem ;
     color: white;
-    flex-shrink: 2;
     margin-top: 0.6rem;
+    max-width: fit-content;
+    min-width: auto;
+    font-weight: 500;
 }
 .read-button:hover {
   transform: translateY(-5px);
