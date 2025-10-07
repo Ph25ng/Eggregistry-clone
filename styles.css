@@ -54,10 +54,10 @@
 .content-articles-items {
     display: grid;
     padding: 2rem;
-    margin: 2.5rem;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-template-rows: 33.3% 33.3% 33.3%;
-    gap: 2em;
+    margin: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.2em;
 
 }
 
@@ -92,14 +92,19 @@
 } 
 
 .read-button {
+    display: flex;
     background-color: #0C0C53;
     border: #0C0C53 2px solid;
     border-radius: 12px;
     text-decoration: none;
     padding: 0.5rem ;
     color: white;
+    flex-shrink: 1rem;
+    margin-top: 0.5rem;
+
 }
 .read-button:hover {
-    background-color: black;
-    color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  transition: 0.3s ease;
 }
